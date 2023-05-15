@@ -1,0 +1,3 @@
+module kryptografia {
+    exports kryptografia;
+}
