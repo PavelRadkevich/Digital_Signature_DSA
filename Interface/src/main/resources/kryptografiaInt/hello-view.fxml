@@ -15,7 +15,7 @@
             <Font name="Arial Bold" size="19.0" />
          </font>
       </Text>
-      <Text fill="#3dff00" layoutX="7.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podpis cyfrowy DES" wrappingWidth="107.0">
+      <Text fill="#3dff00" layoutX="7.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podpis cyfrowy DSA" wrappingWidth="107.0">
          <font>
             <Font size="14.0" />
          </font>

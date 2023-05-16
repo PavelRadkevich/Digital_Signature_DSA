@@ -11,6 +11,7 @@ import kryptografia.DSA;
 
 import java.io.File;
 import java.math.BigInteger;
+import java.security.NoSuchAlgorithmException;
 
 import static kryptografia.OperationsWithFiles.*;
 
@@ -24,6 +25,10 @@ public class DSAController {
     private boolean verification;
     private final DSA DSA = new DSA();
     public BigInteger[] values;         //q, p, h, g, a, b
+
+    public DSAController() throws NoSuchAlgorithmException {
+    }
+
     public void setStage(Stage stage) {
         this.stage = stage;
     }
